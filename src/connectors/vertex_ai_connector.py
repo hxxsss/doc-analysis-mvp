@@ -11,7 +11,7 @@ from utils.exceptions import (
 )
 
 
-_DEFAULT_MODEL = "gemini-3-flash-preview"
+_DEFAULT_MODEL = "gemini-3-flash"
 
 T = TypeVar("T", bound=BaseModel)
 
