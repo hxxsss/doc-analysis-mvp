@@ -10,7 +10,6 @@ load_dotenv()
 _GCP_SCOPES = ["https://www.googleapis.com/auth/cloud-platform"]
 
 class CredentialProvider:
-
     @staticmethod
     def _require_env(var_name: str) -> str:
         value = os.getenv(var_name)
